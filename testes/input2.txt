@@ -1,0 +1,1 @@
+-i A -i B -i C -s -r -i D -i E -s -r -r -i F -i G -i H -s -r -r -i I -s -r -r -r -r -c -i J -i K -s -f
