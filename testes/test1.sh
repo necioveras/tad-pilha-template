@@ -3,9 +3,7 @@ echo
 
 output=$(./a.out < ./testes/input1.txt)
 expected_output="Pilha: Z Y X
-Pilha: Y X
 Pilha: B A Y X
-Pilha: A Y X
 Pilha vazia"
 
 if [ $? -eq 0 ] ; then

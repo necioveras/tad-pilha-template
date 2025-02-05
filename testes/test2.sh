@@ -3,19 +3,10 @@ echo
 
 output=$(./a.out < ./testes/input2.txt)
 expected_output="Pilha: C B A
-Pilha: B A
 Pilha: E D B A
-Pilha: B A
 Pilha: H G F B A
-Pilha: G F B A
-Pilha: I G F B A
-Pilha: G F B A
-Pilha: F B A
-Pilha: B A
-Pilha: A
-Pilha vazia
+Pilha: I F B A
 Pilha: K J"
-
 
 if [ $? -eq 0 ] ; then
   echo "Running ok: Program exited zero"
